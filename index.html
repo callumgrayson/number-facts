@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./favicon.ico">
+  <title>Number Facts</title>
+  <style>
+    .fact{
+      display: none;
+    }
+  </style>
+  <script src="number_facts_mod.js" defer></script>
+</head>
+<body class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <div class="card bg-primary text-white mt-5 p-4" id="container-card">
+          <h1>Number Facts</h1>
+          <p>Enter a number and get a random fact</p>
+          <input type="number" class="form-control form-control-lg" id="numberInput" placeholder="Enter any number...">
+          <div id="fact-trivia" class="card-body fact">
+            <h4 class="card-title">
+              Number Trivia
+            </h4>
+            <p id="factText-trivia" class="card-text"></p>
+          </div>
+          <div id="fact-math" class="card-body fact">
+            <h4 class="card-title">
+              Number Math
+            </h4>
+            <p id="factText-math" class="card-text"></p>
+          </div>
+          <div id="fact-year" class="card-body fact">
+            <h4 class="card-title">
+              Number Year
+            </h4>
+            <p id="factText-year" class="card-text"></p>
+          </div>
+          <br>
+          <p >Number facts provided by <a class="text-white" href="http://numbersapi.com">numbersapi.com</a></p>          
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
