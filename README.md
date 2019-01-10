@@ -1,2 +1,2 @@
-# number-facts
+# Number facts
 Enter a number to get random number facts.
